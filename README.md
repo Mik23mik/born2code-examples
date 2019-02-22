@@ -1,4 +1,4 @@
-born2code-firebase
+born2code-examples
 ============
 Esempi realizzati in firebase per gli alunni di [born2code 2019](https://born2code.it/)
 
@@ -6,7 +6,7 @@ Esempi realizzati in firebase per gli alunni di [born2code 2019](https://born2co
 ## Struttura del progetto
 
 ```
-born2code-firebase
+born2code-examples
 ├── firebase.json           # creato da firebase init
 ├── firestore.indexes.json  # indici di firebase definiti via file
 ├── firestore.rules         # permessi di accesso al firestore
@@ -45,6 +45,7 @@ Inoltre bisogna eseguire il comando `npm install` sulla directory principale **E
 
 # Esercitazioni presenti
 
-- [Signore del tempo](public/01-tempo) - Link Esterno MISSING
+- [Signore del tempo](public/01-tempo) - [Link Esterno][tempo-link]
   > Produttore/Consumatore di orari. Una pagina genera degli orari ogni 10secondi e l'altra li consuma
 
+[tempo-link]: https://born2code-examples.firebaseapp.com/01-tempo/
